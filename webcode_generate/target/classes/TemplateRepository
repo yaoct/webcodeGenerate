@@ -1,0 +1,6 @@
+package [package].repository;
+
+import [package].model.po.County;
+
+public interface [entity]Repository extends BaseRepository<[entity], [keyID]> {
+}

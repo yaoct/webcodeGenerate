@@ -1,0 +1,9 @@
+package [package].service;
+
+import [package].model.po.[entity];
+import [package].repository.[entity]Repository;
+import org.springframework.stereotype.Service;
+
+@Service
+public class [entity]Service extends BaseService<[entity], [keyID], [entity]Repository> {
+}
